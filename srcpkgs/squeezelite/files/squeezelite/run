@@ -1,0 +1,3 @@
+#!/bin/sh
+[ -r /etc/squeezelite.conf ] && . /etc/squeezelite.conf
+exec chpst -u squeezelite:squeezelite squeezelite $OPTS 2>/dev/null
