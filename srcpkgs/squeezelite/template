@@ -17,7 +17,6 @@ system_groups="squeezelite"
 system_accounts="squeezelite"
 squeezelite_shell="/bin/false"
 squeezelite_descr="Squeezelite"
-squeezelite_groups="audio"
 
 do_build() {
 	make LDFLAGS="${LDFLAGS} -lasound -lpthread -lm -lrt" \
