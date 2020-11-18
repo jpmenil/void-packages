@@ -1,8 +1,8 @@
 # Template file for 'squeezelite'
 pkgname=squeezelite
-version=1.9.7.1283f
+version=1.9.8.1287
 revision=1
-_githash=f2eb393725fd21ef48e52431f48ae267957b6e7f
+_githash=cf2230bd8edb9397cafe97c94cda1836269ba7d9
 wrksrc="${pkgname}-${_githash}"
 build_style=gnu-makefile
 makedepends="alsa-lib-devel faad2-devel ffmpeg-devel libflac-devel libmad-devel libsoxr-devel libvorbis-devel mpg123-devel"
@@ -11,7 +11,7 @@ maintainer="Jean-Philippe Menil <jpmenil@gmail.com>"
 license="GPL-3.0-or-later"
 homepage="https://github.com/ralph-irving/squeezelite"
 distfiles="https://github.com/ralph-irving/squeezelite/archive/${_githash}.tar.gz"
-checksum=b1800157d27c0449df4e23a9bec4911a76850dbca63a0ceef95bd9957b5c3523
+checksum=fd1f02b802780e96ef38649e4f2c3e6dfaddefcd33b321a8dbf6f82955f903f4
 
 system_groups="squeezelite"
 system_accounts="squeezelite"
